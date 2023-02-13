@@ -83,7 +83,7 @@ async function parseOS(raw, obj) {
       text: `${prop.name}()`,
       snippet: snippet,
       description: extractDescFromDesc(prop.desc),
-      leftLabel: prop.signatures[0]?.return?.type ?? null,
+      leftLabel: extractReturnFromTextRaw(prop.signatures[0]?.return?.type ?? null),
       rightLabel: `Added in: ${prop.meta.added.join(",")}`,
       type: "method"
     });
@@ -107,13 +107,19 @@ function extractReturnFromTextRaw(value) {
   if (match === null) {
     return value;
   }
-  return match[1];
+  // TODO: Removed \\ doesn't work
+  return match[1].replace("\\", ""); // The last replace is because their HTML has escapes that we don't need
 }
 
 function extractDescFromDesc(value) {
   // Aims to extract a summary description from the HTML description of items
   // within the JSON api data.
-  return value;
+  const reg = /(<([^>]+)>)/ig;
+  let text = value.replace(reg, "");
+  text = text.replace("\n", "");
+  text = text.split(".")[0];
+  text += "."; // Add back the period we removed earlier.
+  return text;
 }
 
 // Call our update
