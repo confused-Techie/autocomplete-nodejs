@@ -1,0 +1,9 @@
+[
+  {
+    "text": "SIGHUP",
+    "snippet": null,
+    "description": "Sent to indicate when a controlling terminal is closed or a parent process exits.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Priority Low",
+    "text": "PRIORITY_LOW",
+    "snippet": null,
+    "description": "The lowest process scheduling priority. This corresponds to IDLE_PRIORITY_CLASS on Windows, and a nice value of 19 on all other platforms.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+    "type": "constant"
+  },
+  {
+    "name": "Priority Below Normal",
+    "text": "PRIORITY_BELOW_NORMAL",
+    "snippet": null,
+    "description": "The process scheduling priority above PRIORITY_LOW and below PRIORITY_NORMAL. This corresponds to BELOW_NORMAL_PRIORITY_CLASS on Windows, and a nice value of 10 on all other platforms.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+    "type": "constant"
+  },
+  {
+    "name": "Priority Normal",
+    "text": "PRIORITY_NORMAL",
+    "snippet": null,
+    "description": "The default process scheduling priority. This corresponds to NORMAL_PRIORITY_CLASS on Windows, and a nice value of 0 on all other platforms.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+    "type": "constant"
+  },
+  {
+    "name": "Priority Above Normal",
+    "text": "PRIORITY_ABOVE_NORMAL",
+    "snippet": null,
+    "description": "The process scheduling priority above PRIORITY_NORMAL and below PRIORITY_HIGH. This corresponds to ABOVE_NORMAL_PRIORITY_CLASS on Windows, and a nice value of -7 on all other platforms.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+    "type": "constant"
+  },
+  {
+    "name": "Priority High",
+    "text": "PRIORITY_HIGH",
+    "snippet": null,
+    "description": "The process scheduling priority above PRIORITY_ABOVE_NORMAL and below PRIORITY_HIGHEST. This corresponds to HIGH_PRIORITY_CLASS on Windows, and a nice value of -14 on all other platforms.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+    "type": "constant"
+  },
+  {
+    "name": "Priority Highest",
+    "text": "PRIORITY_HIGHEST",
+    "snippet": null,
+    "description": "The highest process scheduling priority. This corresponds to REALTIME_PRIORITY_CLASS on Windows, and a nice value of -20 on all other platforms.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+    "type": "constant"
+  }
+]

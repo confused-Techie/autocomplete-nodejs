@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Signals",
+    "text": "signals",
+    "snippet": null,
+    "description": "Exports signal constants.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "Object"
+  },
+  {
+    "name": "Errno",
+    "text": "errno",
+    "snippet": null,
+    "description": "Exports error constants.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#error-constants",
+    "type": "Object"
+  },
+  {
+    "name": "DLOpen",
+    "text": "dlopen",
+    "snippet": null,
+    "description": "When available exports dlopen constants.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+    "type": "Object"
+  },
+  {
+    "name": "Priority",
+    "text": "priority",
+    "snippet": null,
+    "description": "Process scheduling constants.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+    "type": "Object"
+  },
+  {
+    "name": "libuv",
+    "text": "libuv",
+    "snippet": null,
+    "description": "libuv Constants",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#libuv-constants",
+    "type": "Object"
+  }
+]

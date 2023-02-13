@@ -65,6 +65,7 @@ async function parseOS(raw, obj) {
       text: prop.name,
       snippet: null,
       description: extractDescFromDesc(prop.desc),
+      descriptionMoreURL: `${nodeOSURL.replace(".json", ".html")}#os${prop.name.toLowerCase()}`,
       leftLabel: extractReturnFromTextRaw(prop.textRaw),
       rightLabel: `Added in: ${prop.meta.added.join(",")}`,
       type: "property"
@@ -83,6 +84,7 @@ async function parseOS(raw, obj) {
       text: `${prop.name}()`,
       snippet: snippet,
       description: extractDescFromDesc(prop.desc),
+      descriptionMoreURL: `${nodeOSURL.replace(".json", ".html")}#os${prop.name.toLowerCase()}`,
       leftLabel: extractReturnFromTextRaw(prop.signatures[0]?.return?.type ?? null),
       rightLabel: `Added in: ${prop.meta.added.join(",")}`,
       type: "method"
@@ -96,7 +98,10 @@ async function parseOS(raw, obj) {
   // needed info would be best, the simpliest thing to do right now may be to create
   // the list manually. At least we can make it slightly more managable.
 
-  // TODO: Manage constants here
+  obj["os.constants"] = require("./static-constants/os.constants.json");
+  obj["os.constants.signals"] = require("./static-constants/os.constants.signals.json");
+  obj["os.constants.priority"] = require("./static-constants/os.constants.priority.json");
+  obj["os.constants.libuv"] = require("./static-constants/os.constants.libuv.json");
 }
 
 function extractReturnFromTextRaw(value) {
