@@ -1,10 +1,10 @@
 {
-  "NodeJS-OS": [
+  "os": [
     {
       "name": "EOL",
       "text": "EOL",
       "snippet": null,
-      "description": "The operating system-specific end-of-line marker.",
+      "description": "The operating system-specific `end-of-line` marker.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#oseol",
       "leftLabel": "string",
       "rightLabel": "Added in: v0.7.8",
@@ -229,7 +229,7 @@
       "type": "function"
     }
   ],
-  "constants": [
+  "os.constants": [
     {
       "name": "Signals",
       "text": "signals",
@@ -239,7 +239,7 @@
       "type": "object"
     }
   ],
-  "signals": [
+  "os.constants.signals": [
     {
       "text": "SIGHUP",
       "snippet": null,
@@ -265,6 +265,34 @@
       "text": "SIGILL",
       "snippet": null,
       "description": "Sent to a process to notify that it has attempted to perform an illegal, malformed, unknown, or privileged instruction.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGTRAP",
+      "snippet": null,
+      "description": "Sent to a process when an exception has occurred.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGABRT",
+      "snippet": null,
+      "description": "Sent to a process to request that it abort.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGIOT",
+      "snippet": null,
+      "description": "Synonym for `SIGABRT`",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGBUS",
+      "snippet": null,
+      "description": "Sent to a process to notify that it has caused a bus error.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
       "type": "constant"
     }
