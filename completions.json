@@ -1,0 +1,272 @@
+{
+  "NodeJS-OS": [
+    {
+      "name": "EOL",
+      "text": "EOL",
+      "snippet": null,
+      "description": "The operating system-specific end-of-line marker.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#oseol",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.7.8",
+      "type": "constant"
+    },
+    {
+      "name": "Available Parallelism",
+      "text": "availableParallelism()",
+      "snippet": null,
+      "description": "Returns an estimate of the default amount of parallelism a program should use. Always returns a value greater than zero.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osavailableparallelism",
+      "leftLabel": "integer",
+      "rightLabel": "Added in v19.4.0",
+      "type": "function"
+    },
+    {
+      "name": "Arch",
+      "text": "arch()",
+      "snippet": null,
+      "description": "Returns the operating system CPU architecture for which the Node.js binary was compiled.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osarch",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.5.0",
+      "type": "function"
+    },
+    {
+      "name": "Constants",
+      "text": "constants",
+      "snippet": null,
+      "description": "Contains commonly used operating system-specific constants for error codes, process signals, and so on.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osconstants",
+      "leftLabel": "object",
+      "rightLabel": "Added in: v6.3.0",
+      "type": "constant"
+    },
+    {
+      "name": "CPUs",
+      "text": "cpus()",
+      "snippet": null,
+      "description": "Returns an array of objects containing information about each logical CPU core.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#oscpus",
+      "leftLabel": "object[]",
+      "rightLabel": "Added in v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "devNull",
+      "text": "devNull",
+      "snippet": null,
+      "description": "The platform-specific file path of the null device.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osdevnull",
+      "leftLabel": "string",
+      "rightLabel": "Added in v16.3.0,v14.18.0",
+      "type": "constant"
+    },
+    {
+      "name": "Endianness",
+      "text": "endianness()",
+      "snippet": null,
+      "description": "Returns a string identifrying the endianness of the CPU for which the Node.js binary was compiled.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osendianness",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.9.4",
+      "type": "function"
+    },
+    {
+      "name": "Free Memory",
+      "text": "freemem()",
+      "snippet": null,
+      "description": "Returns the amount of free system memory in bytes as an integer.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osfreemem",
+      "leftLabel": "integer",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "Get Priority",
+      "text": "getPriority()",
+      "snippet": "getPriority(${1:pid})",
+      "description": "Returns the scheduling priority for the process specified by `pid`.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osgetprioritypid",
+      "leftLabel": "integer",
+      "rightLabel": "Added in: v10.10.0",
+      "type": "function"
+    },
+    {
+      "name": "Home Dir",
+      "text": "homedir()",
+      "snippet": null,
+      "description": "Returns the string path of the current user's home directory.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#oshomedir",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v2.3.0",
+      "type": "function"
+    },
+    {
+      "name": "Host Name",
+      "text": "hostname()",
+      "snippet": null,
+      "description": "Returns the host name of the operating system as a string.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#oshostname",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "Load Average",
+      "text": "loadavg()",
+      "snippet": null,
+      "description": "The load average is a measure of system activity calculated by the operating system and expressed as a fractional number",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osloadavg",
+      "leftLabel": "number[]",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "Machine",
+      "text": "machine()",
+      "snippet": null,
+      "description": "Returns the machine type as a string.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osmachine",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v18.9.0,v16.18.0",
+      "type": "function"
+    },
+    {
+      "name": "Network Interfaces",
+      "text": "networkInterfaces()",
+      "snippet": null,
+      "description": "Returns an object containing network interfaces that have been assigned a network address.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osnetworkinterfaces",
+      "leftLabel": "object",
+      "rightLabel": "Added in: v0.6.0",
+      "type": "function"
+    },
+    {
+      "name": "Platform",
+      "text": "platform()",
+      "snippet": null,
+      "description": "Returns a string identifying the operating system platform for which the Node.js binary was compiled.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osplatform",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.5.0",
+      "type": "function"
+    },
+    {
+      "name": "Release",
+      "text": "release()",
+      "snippet": null,
+      "description": "Returns the operating system as a string.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osrelease",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "setPriority()",
+      "text": "setPriority()",
+      "snippet": "setPriority(${1:pid}, ${2:optionalPriority})",
+      "description": "Attempts to set the scheduling priority for the process specified by `pid`.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#ossetprioritypid-priority",
+      "rightLabel": "Added in: v10.10.0",
+      "type": "function"
+    },
+    {
+      "name": "Temp Directory",
+      "text": "tmpdir()",
+      "snippet": null,
+      "description": "Returns the operating system's default directory for temporary files as a string.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#ostmpdir",
+      "rightLabel": "Added in: v0.9.9",
+      "type": "function"
+    },
+    {
+      "name": "Total Memory",
+      "text": "totalmem()",
+      "snippet": null,
+      "description": "Returns the total amount of system memory in bytes as an integer.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#ostotalmem",
+      "leftLabel": "integer",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "Type",
+      "text": "type()",
+      "snippet": null,
+      "description": "Returns the operating system name as returned by `uname(3)`.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#ostype",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "Uptime",
+      "text": "uptime()",
+      "snippet": null,
+      "description": "Returns the system uptime in number of seconds.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osuptime",
+      "leftLabel": "integer",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "function"
+    },
+    {
+      "name": "User Info",
+      "text": "userInfo()",
+      "snippet": "userInfo({ encoding: ${1:'utf8'} })",
+      "description": "Returns information about the currently efective user.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osuserinfooptions",
+      "leftLabel": "object",
+      "rightLabel": "Added in: v6.0.0",
+      "type": "function"
+    },
+    {
+      "name": "Version",
+      "text": "version()",
+      "snippet": null,
+      "description": "Returns a string identifying the kernel version.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osversion",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v13.11.0,v12.17.0",
+      "type": "function"
+    }
+  ],
+  "constants": [
+    {
+      "name": "Signals",
+      "text": "signals",
+      "snippet": null,
+      "description": "Exports signal constants.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "object"
+    }
+  ],
+  "signals": [
+    {
+      "text": "SIGHUP",
+      "snippet": null,
+      "description": "Sent to indicate when a controlling terminal is closed or a parent process exist.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGINT",
+      "snippet": null,
+      "description": "Sent to indicate when a user wishes to interrupt a process.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGQUIT",
+      "snippet": null,
+      "description": "Sent to indicate when a user wishes to terminate a process and perform a core dump.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGILL",
+      "snippet": null,
+      "description": "Sent to a process to notify that it has attempted to perform an illegal, malformed, unknown, or privileged instruction.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    }
+  ]
+}

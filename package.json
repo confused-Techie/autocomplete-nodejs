@@ -1,0 +1,22 @@
+{
+  "name": "autocomplete-nodejs",
+  "version": "0.0.1",
+  "description": "NodeJS Module Autocompletions for Pulsar.",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/confused-Techie/atocomplete-nodejs",
+  "author": "confused-Techie",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
