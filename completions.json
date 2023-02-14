@@ -4,51 +4,21 @@
       "name": "EOL",
       "text": "EOL",
       "snippet": null,
-      "description": "The operating system-specific `end-of-line` marker.",
+      "description": "The operating system-specific end-of-line marker.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#oseol",
       "leftLabel": "string",
       "rightLabel": "Added in: v0.7.8",
-      "type": "constant"
+      "type": "property"
     },
     {
-      "name": "Available Parallelism",
-      "text": "availableParallelism()",
-      "snippet": null,
-      "description": "Returns an estimate of the default amount of parallelism a program should use. Always returns a value greater than zero.",
-      "descriptionMoreURL": "https://nodejs.org/api/os.html#osavailableparallelism",
-      "leftLabel": "integer",
-      "rightLabel": "Added in v19.4.0",
-      "type": "function"
-    },
-    {
-      "name": "Arch",
-      "text": "arch()",
-      "snippet": null,
-      "description": "Returns the operating system CPU architecture for which the Node.js binary was compiled.",
-      "descriptionMoreURL": "https://nodejs.org/api/os.html#osarch",
-      "leftLabel": "string",
-      "rightLabel": "Added in: v0.5.0",
-      "type": "function"
-    },
-    {
-      "name": "Constants",
+      "name": "constants",
       "text": "constants",
       "snippet": null,
-      "description": "Contains commonly used operating system-specific constants for error codes, process signals, and so on.",
+      "description": "Contains commonly used operating system-specific constants for error codes,process signals, and so on.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osconstants",
-      "leftLabel": "object",
+      "leftLabel": "Object",
       "rightLabel": "Added in: v6.3.0",
-      "type": "constant"
-    },
-    {
-      "name": "CPUs",
-      "text": "cpus()",
-      "snippet": null,
-      "description": "Returns an array of objects containing information about each logical CPU core.",
-      "descriptionMoreURL": "https://nodejs.org/api/os.html#oscpus",
-      "leftLabel": "object[]",
-      "rightLabel": "Added in v0.3.3",
-      "type": "function"
+      "type": "property"
     },
     {
       "name": "devNull",
@@ -57,176 +27,208 @@
       "description": "The platform-specific file path of the null device.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osdevnull",
       "leftLabel": "string",
-      "rightLabel": "Added in v16.3.0,v14.18.0",
-      "type": "constant"
+      "rightLabel": "Added in: v16.3.0,v14.18.0",
+      "type": "property"
     },
     {
-      "name": "Endianness",
+      "name": "availableParallelism",
+      "text": "availableParallelism()",
+      "snippet": null,
+      "description": "Returns an estimate of the default amount of parallelism a program should use.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osavailableparallelism",
+      "leftLabel": "integer",
+      "rightLabel": "Added in: v19.4.0",
+      "type": "method"
+    },
+    {
+      "name": "arch",
+      "text": "arch()",
+      "snippet": null,
+      "description": "Returns the operating system CPU architecture for which the Node.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osarch",
+      "leftLabel": "string",
+      "rightLabel": "Added in: v0.5.0",
+      "type": "method"
+    },
+    {
+      "name": "cpus",
+      "text": "cpus()",
+      "snippet": null,
+      "description": "Returns an array of objects containing information about each logical CPU core.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#oscpus",
+      "leftLabel": "Object\\[]",
+      "rightLabel": "Added in: v0.3.3",
+      "type": "method"
+    },
+    {
+      "name": "endianness",
       "text": "endianness()",
       "snippet": null,
-      "description": "Returns a string identifrying the endianness of the CPU for which the Node.js binary was compiled.",
+      "description": "Returns a string identifying the endianness of the CPU for which the Node.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osendianness",
       "leftLabel": "string",
       "rightLabel": "Added in: v0.9.4",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Free Memory",
+      "name": "freemem",
       "text": "freemem()",
       "snippet": null,
       "description": "Returns the amount of free system memory in bytes as an integer.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osfreemem",
       "leftLabel": "integer",
       "rightLabel": "Added in: v0.3.3",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Get Priority",
+      "name": "getPriority",
       "text": "getPriority()",
       "snippet": "getPriority(${1:pid})",
-      "description": "Returns the scheduling priority for the process specified by `pid`.",
-      "descriptionMoreURL": "https://nodejs.org/api/os.html#osgetprioritypid",
+      "description": "Returns the scheduling priority for the process specified by pid.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osgetpriority",
       "leftLabel": "integer",
       "rightLabel": "Added in: v10.10.0",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Home Dir",
+      "name": "homedir",
       "text": "homedir()",
       "snippet": null,
       "description": "Returns the string path of the current user's home directory.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#oshomedir",
       "leftLabel": "string",
       "rightLabel": "Added in: v2.3.0",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Host Name",
+      "name": "hostname",
       "text": "hostname()",
       "snippet": null,
       "description": "Returns the host name of the operating system as a string.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#oshostname",
       "leftLabel": "string",
       "rightLabel": "Added in: v0.3.3",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Load Average",
+      "name": "loadavg",
       "text": "loadavg()",
       "snippet": null,
-      "description": "The load average is a measure of system activity calculated by the operating system and expressed as a fractional number",
+      "description": "Returns an array containing the 1, 5, and 15 minute load averages.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osloadavg",
-      "leftLabel": "number[]",
+      "leftLabel": "number\\[]",
       "rightLabel": "Added in: v0.3.3",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Machine",
+      "name": "machine",
       "text": "machine()",
       "snippet": null,
-      "description": "Returns the machine type as a string.",
+      "description": "Returns the machine type as a string, such as arm, arm64, aarch64,mips, mips64, ppc64, ppc64le, s390, s390x, i386, i686, x86_64.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osmachine",
       "leftLabel": "string",
       "rightLabel": "Added in: v18.9.0,v16.18.0",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Network Interfaces",
+      "name": "networkInterfaces",
       "text": "networkInterfaces()",
       "snippet": null,
-      "description": "Returns an object containing network interfaces that have been assigned a network address.",
+      "description": "Returns an object containing network interfaces that have been assigned anetwork address.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osnetworkinterfaces",
-      "leftLabel": "object",
+      "leftLabel": "Object",
       "rightLabel": "Added in: v0.6.0",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Platform",
+      "name": "platform",
       "text": "platform()",
       "snippet": null,
-      "description": "Returns a string identifying the operating system platform for which the Node.js binary was compiled.",
+      "description": "Returns a string identifying the operating system platform for whichthe Node.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osplatform",
       "leftLabel": "string",
       "rightLabel": "Added in: v0.5.0",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Release",
+      "name": "release",
       "text": "release()",
       "snippet": null,
       "description": "Returns the operating system as a string.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osrelease",
       "leftLabel": "string",
       "rightLabel": "Added in: v0.3.3",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "setPriority()",
+      "name": "setPriority",
       "text": "setPriority()",
       "snippet": "setPriority(${1:pid}, ${2:optionalPriority})",
-      "description": "Attempts to set the scheduling priority for the process specified by `pid`.",
-      "descriptionMoreURL": "https://nodejs.org/api/os.html#ossetprioritypid-priority",
+      "description": "Attempts to set the scheduling priority for the process specified by pid.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#ossetpriority",
+      "leftLabel": null,
       "rightLabel": "Added in: v10.10.0",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Temp Directory",
+      "name": "tmpdir",
       "text": "tmpdir()",
       "snippet": null,
-      "description": "Returns the operating system's default directory for temporary files as a string.",
+      "description": "Returns the operating system's default directory for temporary files as astring.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#ostmpdir",
+      "leftLabel": "string",
       "rightLabel": "Added in: v0.9.9",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Total Memory",
+      "name": "totalmem",
       "text": "totalmem()",
       "snippet": null,
       "description": "Returns the total amount of system memory in bytes as an integer.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#ostotalmem",
       "leftLabel": "integer",
       "rightLabel": "Added in: v0.3.3",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Type",
+      "name": "type",
       "text": "type()",
       "snippet": null,
-      "description": "Returns the operating system name as returned by `uname(3)`.",
+      "description": "Returns the operating system name as returned by uname(3).",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#ostype",
       "leftLabel": "string",
       "rightLabel": "Added in: v0.3.3",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Uptime",
+      "name": "uptime",
       "text": "uptime()",
       "snippet": null,
       "description": "Returns the system uptime in number of seconds.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osuptime",
       "leftLabel": "integer",
       "rightLabel": "Added in: v0.3.3",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "User Info",
+      "name": "userInfo",
       "text": "userInfo()",
       "snippet": "userInfo({ encoding: ${1:'utf8'} })",
-      "description": "Returns information about the currently efective user.",
-      "descriptionMoreURL": "https://nodejs.org/api/os.html#osuserinfooptions",
-      "leftLabel": "object",
+      "description": "Returns information about the currently effective user.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#osuserinfo",
+      "leftLabel": "Object",
       "rightLabel": "Added in: v6.0.0",
-      "type": "function"
+      "type": "method"
     },
     {
-      "name": "Version",
+      "name": "version",
       "text": "version()",
       "snippet": null,
       "description": "Returns a string identifying the kernel version.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#osversion",
       "leftLabel": "string",
       "rightLabel": "Added in: v13.11.0,v12.17.0",
-      "type": "function"
+      "type": "method"
     }
   ],
   "os.constants": [
@@ -236,14 +238,46 @@
       "snippet": null,
       "description": "Exports signal constants.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
-      "type": "object"
+      "type": "Object"
+    },
+    {
+      "name": "Errno",
+      "text": "errno",
+      "snippet": null,
+      "description": "Exports error constants.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#error-constants",
+      "type": "Object"
+    },
+    {
+      "name": "DLOpen",
+      "text": "dlopen",
+      "snippet": null,
+      "description": "When available exports dlopen constants.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+      "type": "Object"
+    },
+    {
+      "name": "Priority",
+      "text": "priority",
+      "snippet": null,
+      "description": "Process scheduling constants.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+      "type": "Object"
+    },
+    {
+      "name": "libuv",
+      "text": "libuv",
+      "snippet": null,
+      "description": "libuv Constants",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#libuv-constants",
+      "type": "Object"
     }
   ],
   "os.constants.signals": [
     {
       "text": "SIGHUP",
       "snippet": null,
-      "description": "Sent to indicate when a controlling terminal is closed or a parent process exist.",
+      "description": "Sent to indicate when a controlling terminal is closed or a parent process exits.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
       "type": "constant"
     },
@@ -285,7 +319,7 @@
     {
       "text": "SIGIOT",
       "snippet": null,
-      "description": "Synonym for `SIGABRT`",
+      "description": "Synonym for SIGABRT",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
       "type": "constant"
     },
@@ -294,6 +328,1325 @@
       "snippet": null,
       "description": "Sent to a process to notify that it has caused a bus error.",
       "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGFPE",
+      "snippet": null,
+      "description": "Sent to a process to notify that it has performed an illegal arithmetic operation.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGKILL",
+      "snippet": null,
+      "description": "Sent to a process to terminate it immediately.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGUSR1",
+      "snippet": null,
+      "description": "Sent to a process to identify user-defined conditions.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGUSR2",
+      "snippet": null,
+      "description": "Sent to a process to identify user-defined conditions.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGSEGV",
+      "snippet": null,
+      "description": "Sent to a process to notify of a segmentation fault.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGPIPE",
+      "snippet": null,
+      "description": "Sent to a process when it has attempted to write to a disconnected pipe.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGALRM",
+      "snippet": null,
+      "description": "Sent to a process when a system timer elapses.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGTERM",
+      "snippet": null,
+      "description": "Sent to a process to request termination.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGCHLD",
+      "snippet": null,
+      "description": "Sent to a process when a child process terminates.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGSTKFLT",
+      "snippet": null,
+      "description": "Sent to a process to indicate a stack fault on a coprocessor.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGCONT",
+      "snippet": null,
+      "description": "Sent to instruct the operating system to continue a paused process.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGSTOP",
+      "snippet": null,
+      "description": "Sent to instruct the operating system to halt a process.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGTSTP",
+      "snippet": null,
+      "description": "Sent to a process to request it to stop.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGBREAK",
+      "snippet": null,
+      "description": "Sent to indicate when a user wishes to interrupt a process.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGTTIN",
+      "snippet": null,
+      "description": "Sent to a process when it reads from the TTY while in the background.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGTTOU",
+      "snippet": null,
+      "description": "Sent to a process when it writes to the TTY while in the background.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGURG",
+      "snippet": null,
+      "description": "Sent to a process when a socket has urgent data to read.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGXCPU",
+      "snippet": null,
+      "description": "Sent to a process when it has exceeded its limit on CPU usage.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGXFSZ",
+      "snippet": null,
+      "description": "Sent to a process when it grows a file larger than the maximum allowed.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGVTALRM",
+      "snippet": null,
+      "description": "Sent to a process when a virtual timer has elapsed.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGPROF",
+      "snippet": null,
+      "description": "Sent to a process when a system timer has elapsed.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGWINCH",
+      "snippet": null,
+      "description": "Sent to a process when the controlling terminal has changed its size.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGIO",
+      "snippet": null,
+      "description": "Sent to a process when I/O is available.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGPOLL",
+      "snippet": null,
+      "description": "Synonym for SIGIO",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGLOST",
+      "snippet": null,
+      "description": "Sent to a process when a file lock has been lost.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGPWR",
+      "snippet": null,
+      "description": "Sent to a process to notify of a power failure.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGINFO",
+      "snippet": null,
+      "description": "Synonym for SIGPWR",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGSYS",
+      "snippet": null,
+      "description": "Sent to a process to notify of a bad argument.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    },
+    {
+      "text": "SIGUNUSED",
+      "snippet": null,
+      "description": "Synonym for SIGSYS",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+      "type": "constant"
+    }
+  ],
+  "os.constants.priority": [
+    {
+      "name": "Priority Low",
+      "text": "PRIORITY_LOW",
+      "snippet": null,
+      "description": "The lowest process scheduling priority. This corresponds to IDLE_PRIORITY_CLASS on Windows, and a nice value of 19 on all other platforms.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+      "type": "constant"
+    },
+    {
+      "name": "Priority Below Normal",
+      "text": "PRIORITY_BELOW_NORMAL",
+      "snippet": null,
+      "description": "The process scheduling priority above PRIORITY_LOW and below PRIORITY_NORMAL. This corresponds to BELOW_NORMAL_PRIORITY_CLASS on Windows, and a nice value of 10 on all other platforms.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+      "type": "constant"
+    },
+    {
+      "name": "Priority Normal",
+      "text": "PRIORITY_NORMAL",
+      "snippet": null,
+      "description": "The default process scheduling priority. This corresponds to NORMAL_PRIORITY_CLASS on Windows, and a nice value of 0 on all other platforms.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+      "type": "constant"
+    },
+    {
+      "name": "Priority Above Normal",
+      "text": "PRIORITY_ABOVE_NORMAL",
+      "snippet": null,
+      "description": "The process scheduling priority above PRIORITY_NORMAL and below PRIORITY_HIGH. This corresponds to ABOVE_NORMAL_PRIORITY_CLASS on Windows, and a nice value of -7 on all other platforms.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+      "type": "constant"
+    },
+    {
+      "name": "Priority High",
+      "text": "PRIORITY_HIGH",
+      "snippet": null,
+      "description": "The process scheduling priority above PRIORITY_ABOVE_NORMAL and below PRIORITY_HIGHEST. This corresponds to HIGH_PRIORITY_CLASS on Windows, and a nice value of -14 on all other platforms.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+      "type": "constant"
+    },
+    {
+      "name": "Priority Highest",
+      "text": "PRIORITY_HIGHEST",
+      "snippet": null,
+      "description": "The highest process scheduling priority. This corresponds to REALTIME_PRIORITY_CLASS on Windows, and a nice value of -20 on all other platforms.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#priority-constants",
+      "type": "constant"
+    }
+  ],
+  "os.constants.libuv": [
+    {
+      "name": "uv_udp_reuseaddr",
+      "text": "UV_UDP_REUSEADDR",
+      "snippet": null,
+      "description": null,
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#libuv-constants",
+      "type": "constant"
+    }
+  ],
+  "os.constants.dlopen": [
+    {
+      "text": "RTLD_LAZY",
+      "snippet": null,
+      "description": "Perform lazy binding. Node.js sets this flag by default.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+      "type": "constant"
+    },
+    {
+      "text": "RTLD_NOW",
+      "snippet": null,
+      "description": "Resolve all undefined symbols in the library before dlopen(3) returns.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+      "type": "constant"
+    },
+    {
+      "text": "RTLD_GLOBAL",
+      "snippet": null,
+      "description": "Symbols defined by the library will be made available for symbol resolution of subsequently loaded libraries.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+      "type": "constant"
+    },
+    {
+      "text": "RTLD_LOCAL",
+      "snippet": null,
+      "description": "The converse of RTLD_GLOBAL. This is the default behavior if neither flag is specified.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+      "type": "constant"
+    },
+    {
+      "text": "RTLD_DEEPBIND",
+      "snippet": null,
+      "description": "Make a self-contained library use its own symbols in preference to symbols from previously loaded libraries.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+      "type": "constant"
+    }
+  ],
+  "os.constants.errno": [
+    {
+      "text": "E2BIG",
+      "snippet": null,
+      "description": "Indicates that the list of arguments is longer than expected.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EACCES",
+      "snippet": null,
+      "description": "Indicates that the operation did not have sufficient permissions.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EADDRINUSE",
+      "snippet": null,
+      "description": "Indicates that the network address is already in use.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EADDRNOTAVAIL",
+      "snippet": null,
+      "description": "Indicates that the network address is currently unavailable for use.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EAFNOSUPPORT",
+      "snippet": null,
+      "description": "Indicates that the network address family is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EAGAIN",
+      "snippet": null,
+      "description": "Indicates that there is no data available and to try the operation again later.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EALREADY",
+      "snippet": null,
+      "description": "Indicates that the socket already has a pending connection in progress.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EBADF",
+      "snippet": null,
+      "description": "Indicates that a file descriptor is not valid.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EBADMSG",
+      "snippet": null,
+      "description": "Indicates an invalid data message.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EBUSY",
+      "snippet": null,
+      "description": "Indicates that a device or resource is busy.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ECANCELED",
+      "snippet": null,
+      "description": "Indicates that an operation was canceled.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ECHILD",
+      "snippet": null,
+      "description": "Indicates that there are no child processes.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ECONNABORTED",
+      "snippet": null,
+      "description": "Indicates that the network connection has been aborted.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ECONNREFUSED",
+      "snippet": null,
+      "description": "Indicates that the network connection has been refused.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ECONNRESET",
+      "snippet": null,
+      "description": "Indicates that the network connection has been reset.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EDEADLK",
+      "snippet": null,
+      "description": "Indicates that a resource deadlock has been avoided.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EDESTADDRREQ",
+      "snippet": null,
+      "description": "Indicates that a destination address is required.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EDOM",
+      "snippet": null,
+      "description": "Indicates that an argument is out of the domain of the function.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EDQUOT",
+      "snippet": null,
+      "description": "Indicates that the disk quota has been exceeded.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EEXIST",
+      "snippet": null,
+      "description": "Indicates that the file already exists.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EFAULT",
+      "snippet": null,
+      "description": "Indicates an invalid pointer address.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EFBIG",
+      "snippet": null,
+      "description": "Indicates that the file is too large.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EHOSTUNREACH",
+      "snippet": null,
+      "description": "Indicates that the host is unreachable.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EIDRM",
+      "snippet": null,
+      "description": "Indicates that the identifier has been removed.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EILSEQ",
+      "snippet": null,
+      "description": "Indicates an illegal byte sequence.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EINPROGRESS",
+      "snippet": null,
+      "description": "Indicates that an operation is already in progress.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EINTR",
+      "snippet": null,
+      "description": "Indicates that a function call was interrupted.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EINVAL",
+      "snippet": null,
+      "description": "Indicates that an invalid argument was provided.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EIO",
+      "snippet": null,
+      "description": "Indicates an otherwise unspecified I/O error.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EISCONN",
+      "snippet": null,
+      "description": "Indicates that the socket is connected.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EISDIR",
+      "snippet": null,
+      "description": "Indicates that the path is a directory.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ELOOP",
+      "snippet": null,
+      "description": "Indicates too many levels of symbolic links in a path.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EMFILE",
+      "snippet": null,
+      "description": "Indicates that there are too many open files.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EMLINK",
+      "snippet": null,
+      "description": "Indicates that there are too many hard links to a file.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EMSGSIZE",
+      "snippet": null,
+      "description": "Indicates that the provided message is too long.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EMULTIHOP",
+      "snippet": null,
+      "description": "Indicates that a multihop was attempted.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENAMETOOLONG",
+      "snippet": null,
+      "description": "Indicates that the filename is too long.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENETDOWN",
+      "snippet": null,
+      "description": "Indicates that the network is down.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENETRESET",
+      "snippet": null,
+      "description": "Indicates that the connection has been aborted by the network.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENETUNREACH",
+      "snippet": null,
+      "description": "Indicates that the network is unreachable.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENFILE",
+      "snippet": null,
+      "description": "Indicates too many open files in the system.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOBUFS",
+      "snippet": null,
+      "description": "Indicates that no buffer space is available.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENODATA",
+      "snippet": null,
+      "description": "Indicates that no message is available on the stream head read queue.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENODEV",
+      "snippet": null,
+      "description": "Indicates that there is no such device.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOENT",
+      "snippet": null,
+      "description": "Indicates that there is no such file or directory.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOEXEC",
+      "snippet": null,
+      "description": "Indicates an exec format error.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOLCK",
+      "snippet": null,
+      "description": "Indicates that there are no locks available.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOLINK",
+      "snippet": null,
+      "description": "Indications that a link has been severed.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOMEM",
+      "snippet": null,
+      "description": "Indicates that there is not enough space.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOMSG",
+      "snippet": null,
+      "description": "Indicates that there is no message of the desired type.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOPROTOOPT",
+      "snippet": null,
+      "description": "Indicates that a given protocol is not available.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOSPC",
+      "snippet": null,
+      "description": "Indicates that there is no space available on the device.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOSR",
+      "snippet": null,
+      "description": "Indicates that there are no stream resources available.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOSTR",
+      "snippet": null,
+      "description": "Indicates that a given resource is not a stream.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOSYS",
+      "snippet": null,
+      "description": "Indicates that a function has not been implemented.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOTCONN",
+      "snippet": null,
+      "description": "Indicates that the socket is not connected.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOTDIR",
+      "snippet": null,
+      "description": "Indicates that the path is not a directory.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOTEMPTY",
+      "snippet": null,
+      "description": "Indicates that the directory is not empty.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOTSOCK",
+      "snippet": null,
+      "description": "Indicates that the given item is not a socket.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOTSUP",
+      "snippet": null,
+      "description": "Indicates that a given operation is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENOTTY",
+      "snippet": null,
+      "description": "Indicates an inappropriate I/O control operation.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ENXIO",
+      "snippet": null,
+      "description": "Indicates no such device or address.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EOPNOTSUPP",
+      "snippet": null,
+      "description": "Indicates that an operation is not supported on the socket. Although ENOTSUP and EOPNOTSUPP have the same value on Linux, according to POSIX.1 these error values should be distinct.)",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EOVERFLOW",
+      "snippet": null,
+      "description": "Indicates that a value is too large to be stored in a given data type.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EPERM",
+      "snippet": null,
+      "description": "Indicates that the operation is not permitted.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EPIPE",
+      "snippet": null,
+      "description": "Indicates a broken pipe.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EPROTO",
+      "snippet": null,
+      "description": "Indicates a protocol error.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EPROTONOSUPPORT",
+      "snippet": null,
+      "description": "Indicates that a protocol is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EPROTOTYPE",
+      "snippet": null,
+      "description": "Indicates the wrong type of protocol for a socket.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ERANGE",
+      "snippet": null,
+      "description": "Indicates that the results are too large.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EROFS",
+      "snippet": null,
+      "description": "Indicates that the file system is read only.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ESPIPE",
+      "snippet": null,
+      "description": "Indicates an invalid seek operation.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ESRCH",
+      "snippet": null,
+      "description": "Indicates that there is no such process.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ESTALE",
+      "snippet": null,
+      "description": "Indicates that the file handle is stale.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ETIME",
+      "snippet": null,
+      "description": "Indicates an expired timer.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ETIMEDOUT",
+      "snippet": null,
+      "description": "Indicates that the connection timed out.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "ETXTBSY",
+      "snippet": null,
+      "description": "Indicates that a text file is busy.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EWOULDBLOCK",
+      "snippet": null,
+      "description": "Indicates that the operation would block.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "EXDEV",
+      "snippet": null,
+      "description": "Indicates an improper link.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEINTR",
+      "snippet": null,
+      "description": "Indicates an interrupted function call.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEBADF",
+      "snippet": null,
+      "description": "Indicates an invalid file handle.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEACCES",
+      "snippet": null,
+      "description": "Indicates insufficient permissions to complete the operation.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEFAULT",
+      "snippet": null,
+      "description": "Indicates an invalid pointer address.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEINVAL",
+      "snippet": null,
+      "description": "Indicates that an invalid argument was passed.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEMFILE",
+      "snippet": null,
+      "description": "Indicates that there are too many open files.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEWOULDBLOCK",
+      "snippet": null,
+      "description": "Indicates that a resource is temporarily unavailable.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEINPROGRESS",
+      "snippet": null,
+      "description": "Indicates that an operation is currently in progress.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEALREADY",
+      "snippet": null,
+      "description": "Indicates that an operation is already in progress.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENOTSOCK",
+      "snippet": null,
+      "description": "Indicates that the resource is not a socket.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEDESTADDRREQ",
+      "snippet": null,
+      "description": "Indicates that a destination address is required.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEMSGSIZE",
+      "snippet": null,
+      "description": "Indicates that the message size is too long.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEPROTOTYPE",
+      "snippet": null,
+      "description": "Indicates the wrong protocol type for the socket.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENOPROTOOPT",
+      "snippet": null,
+      "description": "Indicates a bad protocol option.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEPROTONOSUPPORT",
+      "snippet": null,
+      "description": "Indicates that the protocol is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAESOCKTNOSUPPORT",
+      "snippet": null,
+      "description": "Indicates that the socket type is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEOPNOTSUPP",
+      "snippet": null,
+      "description": "Indicates that the operation is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEPFNOSUPPORT",
+      "snippet": null,
+      "description": "Indicates that the protocol family is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEAFNOSUPPORT",
+      "snippet": null,
+      "description": "Indicates that the address family is not supported.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEADDRINUSE",
+      "snippet": null,
+      "description": "Indicates that the network address is already in use.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEADDRNOTAVAIL",
+      "snippet": null,
+      "description": "Indicates that the network address is not available.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENETDOWN",
+      "snippet": null,
+      "description": "Indicates that the network is down.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENETUNREACH",
+      "snippet": null,
+      "description": "Indicates that the network is unreachable.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENETRESET",
+      "snippet": null,
+      "description": "Indicates that the network connection has been reset.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAECONNABORTED",
+      "snippet": null,
+      "description": "Indicates that the connection has been aborted.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAECONNRESET",
+      "snippet": null,
+      "description": "Indicates that the connection has been reset by the peer.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENOBUFS",
+      "snippet": null,
+      "description": "Indicates that there is no buffer space available.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEISCONN",
+      "snippet": null,
+      "description": "Indicates that the socket is already connected.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENOTCONN",
+      "snippet": null,
+      "description": "Indicates that the socket is not connected.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAESHUTDOWN",
+      "snippet": null,
+      "description": "Indicates that data cannot be sent after the socket has been shutdown.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAETOOMANYREFS",
+      "snippet": null,
+      "description": "Indicates that there are too many references.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAETIMEDOUT",
+      "snippet": null,
+      "description": "Indicates that the connection has timed out.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAECONNREFUSED",
+      "snippet": null,
+      "description": "Indicates that the connection has been refused.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAELOOP",
+      "snippet": null,
+      "description": "Indicates that a name cannot be translated.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENAMETOOLONG",
+      "snippet": null,
+      "description": "Indicates that a name was too long.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEHOSTDOWN",
+      "snippet": null,
+      "description": "Indicates that a network host is down.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEHOSTUNREACH",
+      "snippet": null,
+      "description": "Indicates that there is no route to a network host.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENOTEMPTY",
+      "snippet": null,
+      "description": "Indicates that the directory is not empty.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEPROCLIM",
+      "snippet": null,
+      "description": "Indicates that there are too many processes.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEUSERS",
+      "snippet": null,
+      "description": "Indicates that the user quota has been exceeded.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEDQUOT",
+      "snippet": null,
+      "description": "Indicates that the disk quota has been exceeded.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAESTALE",
+      "snippet": null,
+      "description": "Indicates a stale file handle reference.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEREMOTE",
+      "snippet": null,
+      "description": "Indicates that the item is remote.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSASYSNOTREADY",
+      "snippet": null,
+      "description": "Indicates that the network subsystem is not ready.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAVERNOTSUPPORTED",
+      "snippet": null,
+      "description": "Indicates that the winsock.dll version is out of range.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSANOTINITIALISED",
+      "snippet": null,
+      "description": "Indicates that successful WSAStartup has not yet been performed.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEDISCON",
+      "snippet": null,
+      "description": "Indicates that a graceful shutdown is in progress.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAENOMORE",
+      "snippet": null,
+      "description": "Indicates that there are no more results.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAECANCELLED",
+      "snippet": null,
+      "description": "Indicates that an operation has been canceled.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEINVALIDPROCTABLE",
+      "snippet": null,
+      "description": "Indicates that the procedure call table is invalid.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEINVALIDPROVIDER",
+      "snippet": null,
+      "description": "Indicates an invalid service provider.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEPROVIDERFAILEDINIT",
+      "snippet": null,
+      "description": "Indicates that the service provider failed to initialized.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSASYSCALLFAILURE",
+      "snippet": null,
+      "description": "Indicates a system call failure.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSASERVICE_NOT_FOUND",
+      "snippet": null,
+      "description": "Indicates that a service was not found.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSATYPE_NOT_FOUND",
+      "snippet": null,
+      "description": "Indicates that a class type was not found.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSA_E_NO_MORE",
+      "snippet": null,
+      "description": "Indicates that there are no more results.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSA_E_CANCELLED",
+      "snippet": null,
+      "description": "Indicates that the call was canceled.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
+      "type": "constant"
+    },
+    {
+      "text": "WSAEREFUSED",
+      "snippet": null,
+      "description": "Indicates that a database query was refused.",
+      "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+      "rightLabel": "Windows Only",
       "type": "constant"
     }
   ]

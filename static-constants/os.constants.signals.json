@@ -5,5 +5,257 @@
     "description": "Sent to indicate when a controlling terminal is closed or a parent process exits.",
     "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
     "type": "constant"
+  },
+  {
+    "text": "SIGINT",
+    "snippet": null,
+    "description": "Sent to indicate when a user wishes to interrupt a process.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGQUIT",
+    "snippet": null,
+    "description": "Sent to indicate when a user wishes to terminate a process and perform a core dump.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGILL",
+    "snippet": null,
+    "description": "Sent to a process to notify that it has attempted to perform an illegal, malformed, unknown, or privileged instruction.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGTRAP",
+    "snippet": null,
+    "description": "Sent to a process when an exception has occurred.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGABRT",
+    "snippet": null,
+    "description": "Sent to a process to request that it abort.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGIOT",
+    "snippet": null,
+    "description": "Synonym for SIGABRT",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGBUS",
+    "snippet": null,
+    "description": "Sent to a process to notify that it has caused a bus error.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGFPE",
+    "snippet": null,
+    "description": "Sent to a process to notify that it has performed an illegal arithmetic operation.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGKILL",
+    "snippet": null,
+    "description": "Sent to a process to terminate it immediately.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGUSR1",
+    "snippet": null,
+    "description": "Sent to a process to identify user-defined conditions.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGUSR2",
+    "snippet": null,
+    "description": "Sent to a process to identify user-defined conditions.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGSEGV",
+    "snippet": null,
+    "description": "Sent to a process to notify of a segmentation fault.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGPIPE",
+    "snippet": null,
+    "description": "Sent to a process when it has attempted to write to a disconnected pipe.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGALRM",
+    "snippet": null,
+    "description": "Sent to a process when a system timer elapses.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGTERM",
+    "snippet": null,
+    "description": "Sent to a process to request termination.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGCHLD",
+    "snippet": null,
+    "description": "Sent to a process when a child process terminates.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGSTKFLT",
+    "snippet": null,
+    "description": "Sent to a process to indicate a stack fault on a coprocessor.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGCONT",
+    "snippet": null,
+    "description": "Sent to instruct the operating system to continue a paused process.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGSTOP",
+    "snippet": null,
+    "description": "Sent to instruct the operating system to halt a process.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGTSTP",
+    "snippet": null,
+    "description": "Sent to a process to request it to stop.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGBREAK",
+    "snippet": null,
+    "description": "Sent to indicate when a user wishes to interrupt a process.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGTTIN",
+    "snippet": null,
+    "description": "Sent to a process when it reads from the TTY while in the background.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGTTOU",
+    "snippet": null,
+    "description": "Sent to a process when it writes to the TTY while in the background.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGURG",
+    "snippet": null,
+    "description": "Sent to a process when a socket has urgent data to read.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGXCPU",
+    "snippet": null,
+    "description": "Sent to a process when it has exceeded its limit on CPU usage.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGXFSZ",
+    "snippet": null,
+    "description": "Sent to a process when it grows a file larger than the maximum allowed.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGVTALRM",
+    "snippet": null,
+    "description": "Sent to a process when a virtual timer has elapsed.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGPROF",
+    "snippet": null,
+    "description": "Sent to a process when a system timer has elapsed.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGWINCH",
+    "snippet": null,
+    "description": "Sent to a process when the controlling terminal has changed its size.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGIO",
+    "snippet": null,
+    "description": "Sent to a process when I/O is available.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGPOLL",
+    "snippet": null,
+    "description": "Synonym for SIGIO",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGLOST",
+    "snippet": null,
+    "description": "Sent to a process when a file lock has been lost.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGPWR",
+    "snippet": null,
+    "description": "Sent to a process to notify of a power failure.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGINFO",
+    "snippet": null,
+    "description": "Synonym for SIGPWR",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGSYS",
+    "snippet": null,
+    "description": "Sent to a process to notify of a bad argument.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
+  },
+  {
+    "text": "SIGUNUSED",
+    "snippet": null,
+    "description": "Synonym for SIGSYS",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#signal-constants",
+    "type": "constant"
   }
 ]

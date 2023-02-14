@@ -1,0 +1,1019 @@
+[
+  {
+    "text": "E2BIG",
+    "snippet": null,
+    "description": "Indicates that the list of arguments is longer than expected.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EACCES",
+    "snippet": null,
+    "description": "Indicates that the operation did not have sufficient permissions.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EADDRINUSE",
+    "snippet": null,
+    "description": "Indicates that the network address is already in use.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EADDRNOTAVAIL",
+    "snippet": null,
+    "description": "Indicates that the network address is currently unavailable for use.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EAFNOSUPPORT",
+    "snippet": null,
+    "description": "Indicates that the network address family is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EAGAIN",
+    "snippet": null,
+    "description": "Indicates that there is no data available and to try the operation again later.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EALREADY",
+    "snippet": null,
+    "description": "Indicates that the socket already has a pending connection in progress.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EBADF",
+    "snippet": null,
+    "description": "Indicates that a file descriptor is not valid.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EBADMSG",
+    "snippet": null,
+    "description": "Indicates an invalid data message.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EBUSY",
+    "snippet": null,
+    "description": "Indicates that a device or resource is busy.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ECANCELED",
+    "snippet": null,
+    "description": "Indicates that an operation was canceled.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ECHILD",
+    "snippet": null,
+    "description": "Indicates that there are no child processes.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ECONNABORTED",
+    "snippet": null,
+    "description": "Indicates that the network connection has been aborted.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ECONNREFUSED",
+    "snippet": null,
+    "description": "Indicates that the network connection has been refused.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ECONNRESET",
+    "snippet": null,
+    "description": "Indicates that the network connection has been reset.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EDEADLK",
+    "snippet": null,
+    "description": "Indicates that a resource deadlock has been avoided.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EDESTADDRREQ",
+    "snippet": null,
+    "description": "Indicates that a destination address is required.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EDOM",
+    "snippet": null,
+    "description": "Indicates that an argument is out of the domain of the function.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EDQUOT",
+    "snippet": null,
+    "description": "Indicates that the disk quota has been exceeded.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EEXIST",
+    "snippet": null,
+    "description": "Indicates that the file already exists.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EFAULT",
+    "snippet": null,
+    "description": "Indicates an invalid pointer address.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EFBIG",
+    "snippet": null,
+    "description": "Indicates that the file is too large.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EHOSTUNREACH",
+    "snippet": null,
+    "description": "Indicates that the host is unreachable.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EIDRM",
+    "snippet": null,
+    "description": "Indicates that the identifier has been removed.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EILSEQ",
+    "snippet": null,
+    "description": "Indicates an illegal byte sequence.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EINPROGRESS",
+    "snippet": null,
+    "description": "Indicates that an operation is already in progress.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EINTR",
+    "snippet": null,
+    "description": "Indicates that a function call was interrupted.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EINVAL",
+    "snippet": null,
+    "description": "Indicates that an invalid argument was provided.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EIO",
+    "snippet": null,
+    "description": "Indicates an otherwise unspecified I/O error.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EISCONN",
+    "snippet": null,
+    "description": "Indicates that the socket is connected.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EISDIR",
+    "snippet": null,
+    "description": "Indicates that the path is a directory.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ELOOP",
+    "snippet": null,
+    "description": "Indicates too many levels of symbolic links in a path.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EMFILE",
+    "snippet": null,
+    "description": "Indicates that there are too many open files.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EMLINK",
+    "snippet": null,
+    "description": "Indicates that there are too many hard links to a file.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EMSGSIZE",
+    "snippet": null,
+    "description": "Indicates that the provided message is too long.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EMULTIHOP",
+    "snippet": null,
+    "description": "Indicates that a multihop was attempted.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENAMETOOLONG",
+    "snippet": null,
+    "description": "Indicates that the filename is too long.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENETDOWN",
+    "snippet": null,
+    "description": "Indicates that the network is down.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENETRESET",
+    "snippet": null,
+    "description": "Indicates that the connection has been aborted by the network.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENETUNREACH",
+    "snippet": null,
+    "description": "Indicates that the network is unreachable.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENFILE",
+    "snippet": null,
+    "description": "Indicates too many open files in the system.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOBUFS",
+    "snippet": null,
+    "description": "Indicates that no buffer space is available.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENODATA",
+    "snippet": null,
+    "description": "Indicates that no message is available on the stream head read queue.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENODEV",
+    "snippet": null,
+    "description": "Indicates that there is no such device.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOENT",
+    "snippet": null,
+    "description": "Indicates that there is no such file or directory.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOEXEC",
+    "snippet": null,
+    "description": "Indicates an exec format error.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOLCK",
+    "snippet": null,
+    "description": "Indicates that there are no locks available.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOLINK",
+    "snippet": null,
+    "description": "Indications that a link has been severed.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOMEM",
+    "snippet": null,
+    "description": "Indicates that there is not enough space.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOMSG",
+    "snippet": null,
+    "description": "Indicates that there is no message of the desired type.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOPROTOOPT",
+    "snippet": null,
+    "description": "Indicates that a given protocol is not available.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOSPC",
+    "snippet": null,
+    "description": "Indicates that there is no space available on the device.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOSR",
+    "snippet": null,
+    "description": "Indicates that there are no stream resources available.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOSTR",
+    "snippet": null,
+    "description": "Indicates that a given resource is not a stream.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOSYS",
+    "snippet": null,
+    "description": "Indicates that a function has not been implemented.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOTCONN",
+    "snippet": null,
+    "description": "Indicates that the socket is not connected.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOTDIR",
+    "snippet": null,
+    "description": "Indicates that the path is not a directory.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOTEMPTY",
+    "snippet": null,
+    "description": "Indicates that the directory is not empty.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOTSOCK",
+    "snippet": null,
+    "description": "Indicates that the given item is not a socket.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOTSUP",
+    "snippet": null,
+    "description": "Indicates that a given operation is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENOTTY",
+    "snippet": null,
+    "description": "Indicates an inappropriate I/O control operation.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ENXIO",
+    "snippet": null,
+    "description": "Indicates no such device or address.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EOPNOTSUPP",
+    "snippet": null,
+    "description": "Indicates that an operation is not supported on the socket. Although ENOTSUP and EOPNOTSUPP have the same value on Linux, according to POSIX.1 these error values should be distinct.)",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EOVERFLOW",
+    "snippet": null,
+    "description": "Indicates that a value is too large to be stored in a given data type.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EPERM",
+    "snippet": null,
+    "description": "Indicates that the operation is not permitted.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EPIPE",
+    "snippet": null,
+    "description": "Indicates a broken pipe.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EPROTO",
+    "snippet": null,
+    "description": "Indicates a protocol error.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EPROTONOSUPPORT",
+    "snippet": null,
+    "description": "Indicates that a protocol is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EPROTOTYPE",
+    "snippet": null,
+    "description": "Indicates the wrong type of protocol for a socket.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ERANGE",
+    "snippet": null,
+    "description": "Indicates that the results are too large.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EROFS",
+    "snippet": null,
+    "description": "Indicates that the file system is read only.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ESPIPE",
+    "snippet": null,
+    "description": "Indicates an invalid seek operation.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ESRCH",
+    "snippet": null,
+    "description": "Indicates that there is no such process.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ESTALE",
+    "snippet": null,
+    "description": "Indicates that the file handle is stale.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ETIME",
+    "snippet": null,
+    "description": "Indicates an expired timer.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ETIMEDOUT",
+    "snippet": null,
+    "description": "Indicates that the connection timed out.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "ETXTBSY",
+    "snippet": null,
+    "description": "Indicates that a text file is busy.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EWOULDBLOCK",
+    "snippet": null,
+    "description": "Indicates that the operation would block.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "EXDEV",
+    "snippet": null,
+    "description": "Indicates an improper link.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#posix-error-constants",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEINTR",
+    "snippet": null,
+    "description": "Indicates an interrupted function call.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEBADF",
+    "snippet": null,
+    "description": "Indicates an invalid file handle.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEACCES",
+    "snippet": null,
+    "description": "Indicates insufficient permissions to complete the operation.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEFAULT",
+    "snippet": null,
+    "description": "Indicates an invalid pointer address.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEINVAL",
+    "snippet": null,
+    "description": "Indicates that an invalid argument was passed.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEMFILE",
+    "snippet": null,
+    "description": "Indicates that there are too many open files.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEWOULDBLOCK",
+    "snippet": null,
+    "description": "Indicates that a resource is temporarily unavailable.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEINPROGRESS",
+    "snippet": null,
+    "description": "Indicates that an operation is currently in progress.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEALREADY",
+    "snippet": null,
+    "description": "Indicates that an operation is already in progress.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENOTSOCK",
+    "snippet": null,
+    "description": "Indicates that the resource is not a socket.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEDESTADDRREQ",
+    "snippet": null,
+    "description": "Indicates that a destination address is required.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEMSGSIZE",
+    "snippet": null,
+    "description": "Indicates that the message size is too long.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEPROTOTYPE",
+    "snippet": null,
+    "description": "Indicates the wrong protocol type for the socket.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENOPROTOOPT",
+    "snippet": null,
+    "description": "Indicates a bad protocol option.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEPROTONOSUPPORT",
+    "snippet": null,
+    "description": "Indicates that the protocol is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAESOCKTNOSUPPORT",
+    "snippet": null,
+    "description": "Indicates that the socket type is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEOPNOTSUPP",
+    "snippet": null,
+    "description": "Indicates that the operation is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEPFNOSUPPORT",
+    "snippet": null,
+    "description": "Indicates that the protocol family is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEAFNOSUPPORT",
+    "snippet": null,
+    "description": "Indicates that the address family is not supported.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEADDRINUSE",
+    "snippet": null,
+    "description": "Indicates that the network address is already in use.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEADDRNOTAVAIL",
+    "snippet": null,
+    "description": "Indicates that the network address is not available.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENETDOWN",
+    "snippet": null,
+    "description": "Indicates that the network is down.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENETUNREACH",
+    "snippet": null,
+    "description": "Indicates that the network is unreachable.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENETRESET",
+    "snippet": null,
+    "description": "Indicates that the network connection has been reset.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAECONNABORTED",
+    "snippet": null,
+    "description": "Indicates that the connection has been aborted.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAECONNRESET",
+    "snippet": null,
+    "description": "Indicates that the connection has been reset by the peer.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENOBUFS",
+    "snippet": null,
+    "description": "Indicates that there is no buffer space available.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEISCONN",
+    "snippet": null,
+    "description": "Indicates that the socket is already connected.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENOTCONN",
+    "snippet": null,
+    "description": "Indicates that the socket is not connected.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAESHUTDOWN",
+    "snippet": null,
+    "description": "Indicates that data cannot be sent after the socket has been shutdown.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAETOOMANYREFS",
+    "snippet": null,
+    "description": "Indicates that there are too many references.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAETIMEDOUT",
+    "snippet": null,
+    "description": "Indicates that the connection has timed out.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAECONNREFUSED",
+    "snippet": null,
+    "description": "Indicates that the connection has been refused.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAELOOP",
+    "snippet": null,
+    "description": "Indicates that a name cannot be translated.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENAMETOOLONG",
+    "snippet": null,
+    "description": "Indicates that a name was too long.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEHOSTDOWN",
+    "snippet": null,
+    "description": "Indicates that a network host is down.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEHOSTUNREACH",
+    "snippet": null,
+    "description": "Indicates that there is no route to a network host.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENOTEMPTY",
+    "snippet": null,
+    "description": "Indicates that the directory is not empty.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEPROCLIM",
+    "snippet": null,
+    "description": "Indicates that there are too many processes.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEUSERS",
+    "snippet": null,
+    "description": "Indicates that the user quota has been exceeded.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEDQUOT",
+    "snippet": null,
+    "description": "Indicates that the disk quota has been exceeded.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAESTALE",
+    "snippet": null,
+    "description": "Indicates a stale file handle reference.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEREMOTE",
+    "snippet": null,
+    "description": "Indicates that the item is remote.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSASYSNOTREADY",
+    "snippet": null,
+    "description": "Indicates that the network subsystem is not ready.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAVERNOTSUPPORTED",
+    "snippet": null,
+    "description": "Indicates that the winsock.dll version is out of range.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSANOTINITIALISED",
+    "snippet": null,
+    "description": "Indicates that successful WSAStartup has not yet been performed.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEDISCON",
+    "snippet": null,
+    "description": "Indicates that a graceful shutdown is in progress.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAENOMORE",
+    "snippet": null,
+    "description": "Indicates that there are no more results.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAECANCELLED",
+    "snippet": null,
+    "description": "Indicates that an operation has been canceled.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEINVALIDPROCTABLE",
+    "snippet": null,
+    "description": "Indicates that the procedure call table is invalid.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEINVALIDPROVIDER",
+    "snippet": null,
+    "description": "Indicates an invalid service provider.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEPROVIDERFAILEDINIT",
+    "snippet": null,
+    "description": "Indicates that the service provider failed to initialized.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSASYSCALLFAILURE",
+    "snippet": null,
+    "description": "Indicates a system call failure.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSASERVICE_NOT_FOUND",
+    "snippet": null,
+    "description": "Indicates that a service was not found.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSATYPE_NOT_FOUND",
+    "snippet": null,
+    "description": "Indicates that a class type was not found.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSA_E_NO_MORE",
+    "snippet": null,
+    "description": "Indicates that there are no more results.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSA_E_CANCELLED",
+    "snippet": null,
+    "description": "Indicates that the call was canceled.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  },
+  {
+    "text": "WSAEREFUSED",
+    "snippet": null,
+    "description": "Indicates that a database query was refused.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#windows-specific-error-constants",
+    "rightLabel": "Windows Only",
+    "type": "constant"
+  }
+]

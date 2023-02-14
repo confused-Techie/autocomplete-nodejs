@@ -1,4 +1,5 @@
 const superagent = require("superagent");
+const fs = require("fs");
 
 const nodeOSURL = "https://nodejs.org/api/os.json";
 
@@ -21,7 +22,9 @@ async function manageUpdate() {
 
   await parseOS(nodeOSRaw, completionsFile);
 
-  console.log(completionsFile);
+  console.log("Saving new Completions File");
+  fs.writeFileSync("./completions.json", JSON.stringify(completionsFile, null, 2));
+  console.log("Done!");
 }
 
 async function getRemote(url) {
@@ -103,6 +106,9 @@ async function parseOS(raw, obj) {
   obj["os.constants.priority"] = require("./static-constants/os.constants.priority.json");
   obj["os.constants.libuv"] = require("./static-constants/os.constants.libuv.json");
   obj["os.constants.dlopen"] = require("./static-constants/os.constants.dlopen.json");
+  obj["os.constants.errno"] = require("./static-constants/os.constants.errno.json");
+
+  return;
 }
 
 function extractReturnFromTextRaw(value) {
