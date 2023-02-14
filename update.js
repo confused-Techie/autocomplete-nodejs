@@ -102,6 +102,7 @@ async function parseOS(raw, obj) {
   obj["os.constants.signals"] = require("./static-constants/os.constants.signals.json");
   obj["os.constants.priority"] = require("./static-constants/os.constants.priority.json");
   obj["os.constants.libuv"] = require("./static-constants/os.constants.libuv.json");
+  obj["os.constants.dlopen"] = require("./static-constants/os.constants.dlopen.json");
 }
 
 function extractReturnFromTextRaw(value) {

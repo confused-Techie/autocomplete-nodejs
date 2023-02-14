@@ -1,0 +1,37 @@
+[
+  {
+    "text": "RTLD_LAZY",
+    "snippet": null,
+    "description": "Perform lazy binding. Node.js sets this flag by default.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+    "type": "constant"
+  },
+  {
+    "text": "RTLD_NOW",
+    "snippet": null,
+    "description": "Resolve all undefined symbols in the library before dlopen(3) returns.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+    "type": "constant"
+  },
+  {
+    "text": "RTLD_GLOBAL",
+    "snippet": null,
+    "description": "Symbols defined by the library will be made available for symbol resolution of subsequently loaded libraries.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+    "type": "constant"
+  },
+  {
+    "text": "RTLD_LOCAL",
+    "snippet": null,
+    "description": "The converse of RTLD_GLOBAL. This is the default behavior if neither flag is specified.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+    "type": "constant"
+  },
+  {
+    "text": "RTLD_DEEPBIND",
+    "snippet": null,
+    "description": "Make a self-contained library use its own symbols in preference to symbols from previously loaded libraries.",
+    "descriptionMoreURL": "https://nodejs.org/api/os.html#dlopen-constants",
+    "type": "constant"
+  }
+]
