@@ -10,9 +10,9 @@ const completionsFile = {};
 // Since crafting snippets from the API return is difficult, the simpliest solution
 // with minor upkeep is to keep a list of hand crafted snippets for certain items.
 const knownSnippets = {
-  "getPriority": "getPriority(${1:pid})",
-  "setPriority": "setPriority(${1:pid}, ${2:optionalPriority})",
-  "userInfo": "userInfo({ encoding: ${1:'utf8'} })",
+  "os.getPriority": "getPriority(${1:pid})",
+  "os.setPriority": "setPriority(${1:pid}, ${2:optionalPriority})",
+  "os.userInfo": "userInfo({ encoding: ${1:'utf8'} })",
 };
 
 async function manageUpdate() {
@@ -32,7 +32,7 @@ async function getRemote(url) {
 
     const res = await superagent
       .get(url)
-      .set({ "USer-Agent": userAgent });
+      .set({ "User-Agent": userAgent });
 
     if (res.status !== 200) {
       console.error(`Got ${res.status} StatusCode from ${url}`);
@@ -78,7 +78,7 @@ async function parseOS(raw, obj) {
   for (const prop of raw.modules[0].methods) {
     let snippet = null;
 
-    if (knownSnippets[prop.name]) {
+    if (knownSnippets[`os.${prop.name}`]) {
       snippet = knownSnippets[prop.name];
     }
 
