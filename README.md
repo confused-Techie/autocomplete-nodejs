@@ -1,10 +1,12 @@
 # autocomplete-nodejs
 
+[![autocomplete-nodejs](https://image.pulsar-edit.dev/packages/autocomplete-nodejs)](https://web.pulsar-edit.dev/packages/autocomplete-nodejs)
+
 Autocomplete NodeJS is a package made for the [Pulsar](https://pulsar-edit.dev/) Text Editor.
 
 Which provides autocompletions for the built in functions, constants, and exports of modules that come with NodeJS.
 
-![Autocompletions Example](./assets/base-autocompletions.png)
+![Autocompletions Example](https://raw.githubusercontent.com/confused-Techie/autocomplete-nodejs/0.0.1/assets/base-autocompletions.png)
 
 ## Features
 
